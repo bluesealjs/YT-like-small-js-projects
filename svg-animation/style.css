@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+body>div {
+    padding: 10px;
+}
+
 #right-wheel,
 #left-wheel {
     animation: wheel 2s infinite linear;
@@ -43,7 +47,7 @@ body {
     }
 
     to {
-        transform: rotateX(20deg);
+        transform: rotateX(10deg);
     }
 }
 
@@ -53,6 +57,6 @@ body {
     }
 
     to {
-        transform: translateY(40%) rotateZ(10deg);
+        transform: translateY(10%) rotateZ(5deg);
     }
 }
